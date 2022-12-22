@@ -1,12 +1,12 @@
 import React from "react";
-import Navigator from "../Components/Navigator";
+
+import Texts from "../Components/Texts";
 
 const Landing = () => {
   return (
-    <div>
-      <Navigator />
-      Landing
-    </div>
+    <>
+      <Texts />
+    </>
   );
 };
 

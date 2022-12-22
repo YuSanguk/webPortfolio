@@ -9,9 +9,29 @@
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 16px;
   color: black;
+  text-decoration: none;
 }
 
 body {
   min-height: 100vh;
   background: white;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  body > * {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body > * {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  body > * {
+    height: 100vh;
+  }
 }
