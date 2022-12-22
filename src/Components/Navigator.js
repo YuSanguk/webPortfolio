@@ -1,17 +1,18 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 
+import Logo from "./Logo";
 import {
   NavigatorElement,
   NavigatorBar,
   NavigatorElements,
-} from "../Style/ComponentStyle";
+} from "../Style/NavigatorStyle";
 
 const Navigator = () => {
   const { pathname } = useLocation();
   return (
     <NavigatorBar>
-      <div>Logo</div>
+      <Logo />
       <NavigatorElements>
         <NavigatorElement
           isactive={pathname === "/" ? "true" : "false"}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Txt } from "../Style/ComponentStyle";
+import { Txt } from "../Style/LandingStyle";
 
 const Text = ({ t }) => {
   const [active, setActive] = useState(false);
